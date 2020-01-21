@@ -1,0 +1,260 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "uppy uploader",
+    "events": {
+        "ALC": {
+            "caption": "file upload complete",
+            "name": "file_upload_complete"
+        },
+        "ALD": {
+            "caption": "upload session complete",
+            "name": "upload_session_complete"
+        },
+        "ALX": {
+            "caption": "file added",
+            "name": "file_added"
+        },
+        "ALY": {
+            "caption": "file removed",
+            "name": "file_removed"
+        },
+        "ALc": {
+            "caption": "file upload ready",
+            "name": "file_upload_ready"
+        }
+    },
+    "fields": {
+        "AKK": {
+            "caption": "upload from camera",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "use_webcam",
+            "rank": 0
+        },
+        "AKe": {
+            "caption": "UPLOADER CONFIG",
+            "editor": "Label",
+            "name": "uploader_config",
+            "rank": 1
+        },
+        "AKf": {
+            "caption": "show progress details",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "show_progress_details",
+            "rank": 6
+        },
+        "AKk": {
+            "caption": "hide progress after finish",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "hide_progress_after_finish",
+            "rank": 7
+        },
+        "AKm": {
+            "caption": "disable status bar",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "disable_status_bar",
+            "rank": 8
+        },
+        "AKn": {
+            "caption": "disable informer",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "disable_informer",
+            "rank": 9
+        },
+        "AKo": {
+            "caption": "disable thumbnail generator",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "disable_thumbnail_generator",
+            "rank": 10
+        },
+        "AKp": {
+            "caption": "proudly display poweredByUppy",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "proudly_display_poweredByUppy",
+            "rank": 11
+        },
+        "AKq": {
+            "caption": "webcam video only",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "webcam_video_only",
+            "rank": 13
+        },
+        "AKr": {
+            "caption": "webcam audio & video",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "webcam_video_audio",
+            "rank": 12
+        },
+        "AKs": {
+            "caption": "webcam audio only",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "webcam_audio_only",
+            "rank": 14
+        },
+        "AKt": {
+            "caption": "webcam picture",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "webcam_picture",
+            "rank": 15
+        },
+        "AKu": {
+            "caption": "webcam mirror",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "webcam_mirror",
+            "rank": 16
+        },
+        "AKv": {
+            "caption": "webcam facing mode",
+            "default_val": "user",
+            "editor": "Dropdown",
+            "name": "webcam_facing_mode",
+            "optional": true,
+            "options": "user,environment,left,right",
+            "rank": 17
+        },
+        "AKy": {
+            "caption": "webcam show recording_lengt",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "webcam_show_recording_length",
+            "rank": 19
+        },
+        "AKz": {
+            "caption": "webcam countdown",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "webcam_countdown",
+            "rank": 18
+        },
+        "ALF": {
+            "caption": "max file size",
+            "default_val": 50,
+            "doc": "max file size in MB.  Max = 50mb",
+            "editor": "DynamicValue",
+            "name": "max_file_size",
+            "rank": 2,
+            "value": "number"
+        },
+        "ALG": {
+            "caption": "max number of files",
+            "editor": "DynamicValue",
+            "name": "max_number_of_files",
+            "optional": true,
+            "rank": 5,
+            "value": "number"
+        },
+        "ALH": {
+            "caption": "min number of files",
+            "editor": "DynamicValue",
+            "name": "min_number_of_files",
+            "optional": true,
+            "rank": 4,
+            "value": "number"
+        },
+        "ALI": {
+            "caption": "allowed file types",
+            "doc": "uses file extensions and MIME file types.  This is a text string configuration separated by commas (without spaces)   example:  .jpg,.jpeg,image/*",
+            "editor": "DynamicValue",
+            "name": "allowed_file_types",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "ALK": {
+            "caption": "attach to thing",
+            "editor": "DynamicValue",
+            "name": "attach_to_thing",
+            "optional": true,
+            "rank": 20,
+            "value": "_any_thing"
+        },
+        "ALU": {
+            "caption": "allow_multiple_uploads",
+            "default_val": false,
+            "doc": "",
+            "editor": "Checkbox",
+            "name": "allow_multiple_uploads",
+            "rank": 21
+        },
+        "ALV": {
+            "caption": "auto_proceed",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "auto_proceed",
+            "rank": 22
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AKL": {
+            "caption": "current file url",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "current_file_url",
+            "value": "text"
+        },
+        "ALL": {
+            "caption": "current name",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "current_file_name",
+            "value": "text"
+        },
+        "ALM": {
+            "caption": "current file type",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "current_file_type",
+            "value": "text"
+        },
+        "ALN": {
+            "caption": "current file extension",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "current_file_extension",
+            "value": "text"
+        },
+        "ALO": {
+            "caption": "current file size",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "current_file_size",
+            "value": "number"
+        },
+        "ALd": {
+            "caption": "uploaded file urls",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "all_file_urls",
+            "value": "text"
+        }
+    }
+}

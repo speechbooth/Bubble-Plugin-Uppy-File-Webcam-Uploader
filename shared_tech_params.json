@@ -1,0 +1,25 @@
+{
+    "assets": {
+        "AKd": {
+            "name": "up",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1578670985990x199833086222686900/uppy-logo-2019%20%281%29.svg"
+        },
+        "ALR": {
+            "name": "uppy_css_source",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1578765351175x139423091133036980/uppy.min.css"
+        },
+        "ALS": {
+            "name": "uppy_js_source",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1578765371467x445963318504138940/uppy.min.js"
+        }
+    },
+    "dependencies": {
+        "use_jquery": false
+    },
+    "shared_keys": {
+        "AJZ": {
+            "caption": "bearer_key",
+            "type": "secure"
+        }
+    }
+}
