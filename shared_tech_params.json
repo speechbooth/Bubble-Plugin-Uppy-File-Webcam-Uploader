@@ -6,11 +6,11 @@
         },
         "ALR": {
             "name": "uppy_css_source",
-            "url": "//dd7tel2830j4w.cloudfront.net/f1578765351175x139423091133036980/uppy.min.css"
+            "url": "//dd7tel2830j4w.cloudfront.net/f1611436067603x979976531106060200/uppy.min-1.24.0.css"
         },
         "ALS": {
             "name": "uppy_js_source",
-            "url": "//dd7tel2830j4w.cloudfront.net/f1578765371467x445963318504138940/uppy.min.js"
+            "url": "//dd7tel2830j4w.cloudfront.net/f1611435449716x262785717534619550/uppy.min-1.24.0.js"
         }
     },
     "dependencies": {
