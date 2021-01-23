@@ -53,6 +53,7 @@ console.log("instance.canvas", instance.canvas)
               maxFileSize: maxFileSize,
               maxNumberOfFiles: maxNumberOfFiles,
               minNumberOfFiles: minNumberOfFiles,
+              allowedFileTypes: allowedFileTypes,
           },
         allowMultipleUploads: allowMultipleUploads,
         autoProceed : autoProceed,
